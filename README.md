@@ -54,7 +54,7 @@ DeviceFileEvents
 | project Timestamp, DeviceName, ActionType, FileName, FolderPath, SHA1, SHA256, MD5 = InitiatingProcessAccountName
 ```
 
-![DeviceFileEvents Output](DeviceFileEvents_Output.png)
+![DeviceFileEvents Output](TORDownloaded.png)
 
 ### Key Observations
 
