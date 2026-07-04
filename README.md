@@ -119,7 +119,7 @@ DeviceNetworkEvents
 
 ### Key Observations
 
-- Between 10:00 AM and 10:01 AM, `tor.exe` made multiple successful outbound connections from the device — confirming the browser wasn't just installed, it was actively connecting out to the internet.
+- Between 10:00 AM and 10:01 AM, `tor.exe` made multiple successful outbound connections from the device — confirming the browser wasn't just installed; it was actively connecting out to the internet.
 - One connection went out over **port 9001**, a port commonly associated with TOR relay traffic — a strong technical indicator of TOR network activity.
 - Two connection attempts **failed** (to `94.23.148.66:8000` and `162.19.169.173:9100`) — this is consistent with normal TOR behavior, where the client attempts multiple relays while building a circuit and only some connections succeed.
 - The remaining successful connections went out over standard web ports (443/80), which is expected: TOR is designed to blend in with normal encrypted web traffic. The key detail is that `tor.exe` — not a standard browser — was the process making these connections.
@@ -139,7 +139,7 @@ DeviceNetworkEvents
 | order by Timestamp asc
 ```
 
-![DeviceNetworkEvents Full Output](DeviceNetworkEvents_Full_Output.png)
+![DeviceNetworkEvents Full Output](TORSessionEndtoEnd.png)
 
 ### Key Observations
 
