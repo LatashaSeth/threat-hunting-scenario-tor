@@ -36,6 +36,8 @@ To confirm or rule out TOR usage, I structured the hunt around three layers of e
 
 ## Steps Taken
 
+### 1. Searched the `DeviceFileEvents` Table
+
 **How this was found:** A search of endpoint activity logs for the employee's device turned up multiple TOR-related files, confirming the software had been downloaded, installed, and used.
 
 **What happened:** The employee downloaded and installed the TOR Browser — software that anonymizes internet activity and bypasses standard security monitoring — then used it within the same work session.
