@@ -109,6 +109,8 @@ DeviceProcessEvents
 
 **Bottom line:** This confirms the TOR Browser wasn't just installed and left alone — it was manually opened and used by the account holder.
 
+### 3. Searched the `DeviceProcessEvents` Table for TOR Browser Execution
+
 **Query used to locate events:**
 
 ```kql
