@@ -99,7 +99,7 @@ DeviceProcessEvents
 | order by Timestamp asc
 ```
 
-![DeviceProcessEvents Browser Launch Output](TORUsageports.png)
+![DeviceProcessEvents Browser Launch Output](TORProcessCreation.png)
 
 ### Key Observations
 
