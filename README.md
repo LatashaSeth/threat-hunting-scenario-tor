@@ -174,7 +174,7 @@ DeviceNetworkEvents
 
 ### Key Observations
 
-- **10:00:3x AM** — `firefox.exe` connected locally to `127.0.0.1:9150`, TOR's default SOCKS proxy port — confirming the browser handed its traffic to the TOR client.
+- **10:00:3 AM** — `firefox.exe` connected locally to `127.0.0.1:9150`, TOR's default SOCKS proxy port — confirming the browser handed its traffic to the TOR client.
 - `tor.exe` then made multiple outbound connections to external IP addresses over **port 9001** (TOR's standard relay port) as well as standard web ports **443 and 80** — including resolved URLs such as `pgnsba.com`, `vp7y773...`, `xf7hhcfl...`, and `u4uau6g...`.
 - Combining TOR's own ports with standard web ports in one view shows the complete picture: the local handoff to TOR, followed by TOR relaying the browsing session out over both TOR-specific and standard web ports.
 
