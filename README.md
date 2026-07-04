@@ -87,6 +87,8 @@ DeviceProcessEvents
 - The `/S` in the command means **silent install**: no pop-ups, no confirmation screens. It's the install method someone uses when they don't want it noticed.
 - This confirms an automated process didn't cause the file activity — a person actively launched the TOR Browser installer on this device.
 
+### 3. Searched the `DeviceProcessEvents` Table for TOR Browser Execution
+
 **Query used to locate events:**
 
 ```kql
@@ -109,7 +111,7 @@ DeviceProcessEvents
 
 **Bottom line:** This confirms the TOR Browser wasn't just installed and left alone — it was manually opened and used by the account holder.
 
-### 3. Searched the `DeviceProcessEvents` Table for TOR Browser Execution
+### 4. Searched the `DeviceNetworkEvents` Table for TOR Network Connections
 
 **Query used to locate events:**
 
