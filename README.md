@@ -75,7 +75,7 @@ DeviceProcessEvents
 | project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA1, SHA256, MD5, ProcessCommandLine
 ```
 
-![DeviceProcessEvents Output](DeviceProcessEvents_Output.png)
+![DeviceProcessEvents Output](TORInstalledsilently.png)
 
 ### Key Observations
 
