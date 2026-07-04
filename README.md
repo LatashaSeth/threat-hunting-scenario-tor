@@ -9,8 +9,6 @@
 - Kusto Query Language (KQL)
 - Tor Browser
 
-# Threat Hunt Report (Unauthorized TOR Usage)
-
 **Detection of Unauthorized TOR Browser Installation and Use on Workstation: LS-VM-Crange**
 
 **Analyst:** Latasha Seth
