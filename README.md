@@ -162,7 +162,7 @@ DeviceNetworkEvents
 | order by Timestamp asc
 ```
 
-![DeviceNetworkEvents TOR Ports Output](DeviceNetworkEvents_TORPorts_Output.png)
+![DeviceNetworkEvents TOR Ports Output](TORSuccessfulOutboundConnection.png)
 
 ### Key Observations
 
