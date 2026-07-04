@@ -67,6 +67,8 @@ DeviceFileEvents
 
 **Bottom line:** The activity pattern is consistent with manual installation and use, rather than an automated or background process.
 
+### 2. Searched the `DeviceProcessEvents` Table
+
 **Query used to locate events:**
 
 ```kql
@@ -83,7 +85,7 @@ DeviceProcessEvents
 
 - **9:56 AM** — The installer wasn't just sitting in Downloads — it was actually run, seconds before the TOR files appeared on the Desktop.
 - The `/S` in the command means **silent install**: no pop-ups, no confirmation screens. It's the install method someone uses when they don't want it noticed.
-- This confirms the file activity wasn't caused by an automated process — a person actively launched the TOR Browser installer on this device.
+- This confirms an automated process didn't cause the file activity — a person actively launched the TOR Browser installer on this device.
 
 **Query used to locate events:**
 
